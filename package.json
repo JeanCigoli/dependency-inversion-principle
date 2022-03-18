@@ -1,0 +1,15 @@
+{
+  "name": "dependence-inversion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "server:basic": "tsnd src/basic/basic.ts",
+    "server:medium": "tsnd src/medium/medium.ts",
+    "server:hard": "tsnd src/hard/hard.ts"
+  }
+}
